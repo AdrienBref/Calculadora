@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">@dimen/button_layout_width</item>
+        <item name="android:layout_height">@dimen/button_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:backgroundTint">@color/button_background_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="SpecialCalculatorButton">
+        <item name="android:layout_width">@dimen/button_layout_width</item>
+        <item name="android:layout_height">@dimen/button_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:backgroundTint">@color/special_button_background_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="FunCalculatorButton">
+        <item name="android:layout_width">@dimen/button_layout_width</item>
+        <item name="android:layout_height">@dimen/button_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:backgroundTint">#1E1A1A</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="SymbolCalculatorButton">
+        <item name="android:layout_width">@dimen/button_layout_width</item>
+        <item name="android:layout_height">@dimen/button_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:backgroundTint">#9B9A9A</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="ExtraColumnCalculatorButton">
+        <item name="android:layout_width">280sp</item>
+        <item name="android:layout_height">@dimen/button_layout_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:backgroundTint">#1E1A1A</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+</resources>

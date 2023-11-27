@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17"
+        android:text="1"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="50sp"
+        android:id="@+id/textosuper"
+        android:gravity="right|bottom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17"
+        android:text="1"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="50sp"
+        android:id="@+id/textodown"
+        android:gravity="right|bottom"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:columnCount="5"
+        android:rowCount="5">
+
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/raizCuadrada"
+            android:text="√ " />
+        <Button
+            style="@style/SymbolCalculatorButton"
+            android:id="@+id/AC"
+            android:text="AC" />
+        <Button
+            style="@style/SymbolCalculatorButton"
+            android:id="@+id/masmenos"
+            android:text="+/-" />
+        <Button
+            style="@style/SymbolCalculatorButton"
+            android:id="@+id/porcentaje"
+            android:text="%" />
+        <Button
+            style="@style/SpecialCalculatorButton"
+            android:id="@+id/division"
+            android:text="/" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/PI"
+            android:text="π" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/siete"
+            android:text="7" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/ocho"
+            android:text="8" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/nueve"
+            android:text="9" />
+        <Button
+            style="@style/SpecialCalculatorButton"
+            android:id="@+id/multiplicacion"
+            android:text="X" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/seno"
+            android:text="sin" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/cuatro"
+            android:text="4" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/cinco"
+            android:text="5" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/seis"
+            android:text="6" />
+        <Button
+            style="@style/SpecialCalculatorButton"
+            android:id="@+id/menos"
+            android:text="-" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/coseno"
+            android:text="cos" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/uno"
+            android:text="1" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/dos"
+            android:text="2" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/tres"
+            android:text="3" />
+        <Button
+            style="@style/SpecialCalculatorButton"
+            android:id="@+id/sumo"
+            android:text="+" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/tangente"
+            android:text="tan" />
+        <Button
+            style="@style/ExtraColumnCalculatorButton"
+            android:id="@+id/cero"
+            android:text="0" />
+        <Button
+            style="@style/FunCalculatorButton"
+            android:id="@+id/coma"
+            android:text="," />
+        <Button
+            style="@style/SpecialCalculatorButton"
+            android:id="@+id/resultado"
+            android:text="=" />
+
+    </GridLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
